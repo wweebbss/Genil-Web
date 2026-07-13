@@ -1,0 +1,31 @@
+:root {
+  --background-color: #eee;
+  --text-color: #000;
+  --link-color: #000;
+  --link-color-hover: #49a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #222;
+    --text-color: #eee;
+    --link-color: #fff;
+    --link-color-hover: #49a;
+  }
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a[href] {
+  color: var(--link-color);
+  transition: color ease-out 0.3s;
+}
+
+a[href]:hover,
+a[href]:active,
+a[href]:focus {
+  color: var(--link-color-hover);
+}

@@ -1,0 +1,24 @@
+:root {
+  --header-width: 100%;
+  --max-header-width: 80ch;
+}
+
+header {
+  width: var(--header-width);
+  max-width: var(--max-header-width);
+}
+
+nav {
+  width: var(--header-width);
+  max-width: var(--max-header-width);
+
+  position: sticky;
+  top: 0;
+  text-transform: uppercase;
+
+  /* Ostrich Sans font? */
+}
+
+nav a[href] {
+  text-decoration: none;
+}
