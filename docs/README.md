@@ -1,6 +1,20 @@
-Website source code and tooling for the "CEIP Genil" of Granada.
+Website source code and tooling for the "CEIP Genil Granada".
 
 The source aims to be a plain HTML/CSS website with a small amount of custom preprocessing for simplicity and minimalism.
+
+# Licensing and Usage Notice
+
+This repository contains an early prototype/mock-up of the website for "CEIP Genil Granada".
+
+The source code and other original materials in this repository are not currently released under any license.
+
+Public visibility should not be interpreted as permission to reuse, redistribute, publish, or incorporate the contents into another project.
+
+A formal license will be considered when the project reaches a more complete stage.
+
+The school's name, logo, branding, official materials, and other identifying elements are not authorized for reuse or representation of affiliation with the school.
+
+---
 
 # Git Workflow
 
